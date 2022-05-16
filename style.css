@@ -83,6 +83,17 @@ a {
     gap: 5px;
 }
 
+.button {
+    min-height: 30px;
+    max-width: 150px;
+    border-radius: 10px;
+    display: flex;
+    background-color: var(--buton-color);
+    color: var(--main-text-color);
+    justify-content: center;
+    align-items: center;
+}
+
 .image {
     max-width: 400px;
     max-height: 250px;
@@ -179,27 +190,6 @@ img {
     align-items: center;
 }
 
-.footer-bot {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--dark-background);
-    color: var(--logo-text-color);
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-
-.button {
-    min-height: 30px;
-    max-width: 150px;
-    border-radius: 10px;
-    display: flex;
-    background-color: var(--buton-color);
-    color: var(--main-text-color);
-    justify-content: center;
-    align-items: center;
-}
-
 .sign-up-button {
     color: var(--main-text-color);
     border: var(--main-text-color) 1px solid;
@@ -208,4 +198,14 @@ img {
     padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 5px;
+}
+
+.footer-bot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--dark-background);
+    color: var(--logo-text-color);
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
