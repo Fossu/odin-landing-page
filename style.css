@@ -35,6 +35,7 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
+    padding-top: 10px;
 }
 
 .logo {
@@ -67,6 +68,7 @@ ul {
     justify-content: space-between;
     padding-bottom: 60px;
     padding-top: 60px;
+    align-items: center;
 }
 
 .description {
@@ -84,10 +86,13 @@ ul {
 .mid-top,
 .top,
 .mid-bot,
-.footer-top,
 .footer-bot {
     padding-left: 200px;
     padding-right: 200px;
+}
+.footer-top {
+    padding-left: 250px;
+    padding-right: 250px;
 }
 .cards {
     display: flex;
@@ -111,9 +116,10 @@ ul {
 .quote-with-author {
     display: flex;
     flex-direction: column;
-    border: 1px solid rgb(19, 17, 17);
     max-width: 760px;
     flex: 1;
+    padding-bottom: 50px;
+    padding-top: 50px;
 }
 .quote {
     font-size: var(--quote-text-size);
@@ -128,9 +134,18 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 .sign-up-container {
+    display: flex;
     background-color: var(--buton-color);
+    border-radius: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    flex: 1;
+    justify-content: space-around;
+    align-items: center;
 }
 .footer-bot {
     display: flex;
@@ -138,6 +153,8 @@ ul {
     align-items: center;
     background-color: var(--dark-background);
     color: var(--logo-text-color);
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 .information {
     font-size: var(--information-text-size);
@@ -161,4 +178,19 @@ img {
     color: var(--main-text-color);
     justify-content: center;
     align-items: center;
+}
+
+.image {
+    max-width: 400px;
+    max-height: 250px;
+}
+
+.sign-up-button {
+    color: var(--main-text-color);
+    border: var(--main-text-color) 1px solid;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
 }
